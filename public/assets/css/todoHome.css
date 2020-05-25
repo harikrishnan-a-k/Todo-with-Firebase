@@ -1,0 +1,140 @@
+#list3 .darkBlue{
+    color: darkblue;
+}
+body{
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.listContainer{
+    background: rgb(2, 169, 175);
+    color:white;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.4);
+    /* padding: 15px; */
+}
+.listContainer h1{
+    background: darkblue;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    /* font-weight: normal; */
+}
+.listContainer ul{
+    margin:0;
+    padding: 0;
+}
+.listContainer ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    background-color: rgb(1, 191, 197);
+    min-height: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.listContainer ul li:nth-of-type(even){
+    background: rgb(2, 169, 175);
+}
+#inputText1{
+    padding:8px 13px 8px 20px;
+    color: darkblue;
+    /* font-weight: bold; */
+}
+#inputText1:focus{
+    border: 1px solid rgb(3, 121, 199);
+    outline: none;
+}
+#inputText2{
+    padding:8px 13px 8px 20px;
+    color: darkblue;
+    /* font-weight: bold; */
+}
+#inputText2:focus{
+    border: 1px solid rgb(3, 121, 199);
+    outline: none;
+}
+.completed{
+    color:rgb(4, 4, 245);
+    text-decoration: line-through;
+}
+#mainNavBar{
+    background-color: darkblue !important;
+}
+
+.delete{
+    
+    background: #e74c3c;
+    min-height: 40px;
+    height:inherit;
+    margin-right: 20px;
+    text-align: center;
+    width: 0px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.5s linear;
+
+}
+.listContainer ul li:hover .delete,.listContainer ul li:active .delete{
+    width:40px;
+    opacity:1;
+    min-width: 40px;
+}
+/* @media (max-width:576px){
+    .delete{
+        width:40px;
+        opacity:1;
+        margin-right: 10px;
+        background-color:transparent;
+    }
+} */
+.deleteMobileStyles{
+    width:40px;
+    min-width: 40px;
+    opacity:1;
+}
+.ui-tabs .ui-tabs-panel{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 73vh;
+}
+.ui-widget-content{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    border: 1px solid #8E2DE2;
+}
+.ui-widget-header{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button{
+    color:white;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+@media (max-width:600px){
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+        font-size: 14px !important;
+    }
+}
+.ui-widget-header{
+    border: none !important;
+}
+
